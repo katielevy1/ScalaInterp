@@ -1,0 +1,22 @@
+{
+        "prog": {
+                "expr": "rest",
+                "list": {
+                        "expr": "cons",
+                        "first": {
+                                "expr": "number",
+                                "number": 5
+                        },
+                        "rest": {
+                                "expr": "cons",
+                                "first": {
+                                        "expr": "number",
+                                        "number": 3
+                                },
+                                "rest": {
+                                        "expr": "empty"
+                                }
+                        }
+                }
+        }
+}

@@ -1,0 +1,24 @@
+{
+    "prog": {
+        "expr": "lambda",
+        "param": "x",
+        "body": {
+            "expr": "add",
+            "left": {
+                "expr": "id",
+                "id": "x"
+            },
+            "right": {
+                "expr": "mult",
+                "left": {
+                    "expr": "number",
+                    "number": 3
+                },
+                "right": {
+                    "expr": "number",
+                    "number": 4
+                }
+            }
+        }
+    }
+}

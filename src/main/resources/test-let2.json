@@ -1,0 +1,29 @@
+{
+        "prog": {
+                "expr": "let",
+                "id": "x",
+                "val": {
+                        "expr": "number",
+                        "number": 5
+                },
+                "body": {
+                        "expr": "let",
+                        "id": "y",
+                        "val": {
+                                "expr": "number",
+                                "number": 3
+                        },
+                        "body": {
+                                "expr": "add",
+                                "left": {
+                                        "expr": "id",
+                                        "id": "x"
+                                },
+                                "right": {
+                                        "expr": "id",
+                                        "id": "y"
+                                }
+                        }
+                }
+        }
+}
