@@ -1,0 +1,15 @@
+language: scala
+scala:
+   - 2.10.4
+   - 2.11.4
+branches:
+  only:
+    - master
+notifications:
+  email:
+    recipients:
+      - wilfredspringer@gmail.com
+jdk:
+  - oraclejdk7
+  - oraclejdk8
+

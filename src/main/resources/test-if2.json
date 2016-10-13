@@ -1,0 +1,35 @@
+{
+        "prog": {
+                "expr": "application",
+                "func": {
+                        "expr": "lambda",
+                        "param": "n",
+                        "body": {
+                                "expr": "if",
+                                "cond": {
+                                        "expr": "equal",
+                                        "left": {
+                                                "expr": "id",
+                                                "id": "n"
+                                        },
+                                        "right": {
+                                                "expr": "number",
+                                                "number": 0
+                                        }
+                                },
+                                "then": {
+                                        "expr": "number",
+                                        "number": 1
+                                },
+                                "else": {
+                                        "expr": "number",
+                                        "number": 5
+                                }
+                        }
+                },
+                "arg": {
+                        "expr": "number",
+                        "number": 1
+                }
+        }
+}

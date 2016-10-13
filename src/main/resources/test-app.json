@@ -1,0 +1,24 @@
+{
+        "prog": {
+                "expr": "application",
+                "func": {
+                        "expr": "lambda",
+                        "param": "x",
+                        "body": {
+                                "expr": "add",
+                                "left": {
+                                        "expr": "id",
+                                        "id": "x"
+                                },
+                                "right": {
+                                        "expr": "id",
+                                        "id": "x"
+                                }
+                        }
+                },
+                "arg": {
+                        "expr": "number",
+                        "number": 8
+                }
+        }
+}

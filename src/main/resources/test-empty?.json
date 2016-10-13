@@ -1,0 +1,15 @@
+{
+    "prog": {
+        "expr": "empty?",
+        "list": {
+            "expr": "cons",
+            "first": {
+                "expr": "number",
+                "number": 5
+            },
+            "rest": {
+                "expr": "empty"
+            }
+        }
+    }
+}

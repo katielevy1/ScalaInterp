@@ -1,0 +1,13 @@
+{
+    "prog": {
+        "expr": "mult",
+        "left": {
+            "expr": "number",
+            "number": 1
+        },
+        "right": {
+            "expr": "number",
+            "number": 2
+        }
+    }
+}
